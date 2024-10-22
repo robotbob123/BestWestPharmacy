@@ -1,40 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BestWest Pharmacy
 
-## Getting Started
+Welcome to the **BestWest Pharmacy** GitHub repository! This repository contains the source code and ongoing development for the BestWest Pharmacy website, designed to provide easy access to prescription services, health consultations, and over-the-counter medications for our customers in **Los Banos, California**.
 
-First, run the development server:
+## About BestWest Pharmacy
+BestWest Pharmacy is your trusted family pharmacy dedicated to providing quick, reliable, and personalized service. We are committed to making healthcare more accessible to everyone, offering services such as:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Prescription Filling**: Fast and accurate prescription services to ensure you get the medication you need.
+- **Health Consultations**: Expert advice from our team of pharmacists on managing your health.
+- **Health Products**: A wide range of over-the-counter medications and health products.
+- **Delivery Services**: We offer convenient delivery options to bring medications right to your door.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We proudly accept **Medi-Cal**, ensuring that healthcare remains accessible to all members of our community.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Website Features
+This website is being developed to provide a user-friendly experience with features like:
+- **Online Prescription Management**: Easily refill and manage your prescriptions through our website.
+- **Health Consultation Scheduling**: Book consultations with our pharmacists for personalized healthcare advice.
+- **Product Search**: Browse a comprehensive range of over-the-counter products and order for pick-up or delivery.
+- **Store Information**: Find our store hours, location, and contact information easily.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Technologies Used
+The BestWest Pharmacy website is built using:
+- **Next.js**: For server-side rendering and static site generation.
+- **Tailwind CSS**: For fast and responsive UI design.
+- **Vercel**: For deployment and hosting, ensuring global accessibility and fast performance.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contributing
+We welcome contributions from developers interested in improving the BestWest Pharmacy website. Please feel free to fork the repository and submit pull requests. Before contributing, kindly review the project guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contact Us
+If you have any questions or need assistance, feel free to contact me: rishivstartup@gmail.com
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting BestWest Pharmacy!
