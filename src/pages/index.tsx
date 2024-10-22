@@ -11,7 +11,7 @@ export default function Home() {
             alt="BestWest Pharmacy Logo"
             width={300}
             height={75}
-            className="h-16 w-auto"
+            className="h-24 w-auto"
           />
           <nav>
           </nav>
@@ -19,22 +19,32 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="bg-red-600 text-white py-20">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl font-bold mb-4">Welcome to Best West Pharmacy</h1>
-            <p className="text-xl mb-4">Your trusted neighborhood pharmacy in Los Banos, California</p>
-            <div className="flex items-center justify-center mb-8">
-              <Star className="w-6 h-6 fill-current text-yellow-400" />
-              <span className="ml-2 text-lg font-semibold">4.4</span>
-              <span className="ml-2 text-sm">(7 Google reviews)</span>
-            </div>
-          </div>
-        </section>
+      <section className="bg-red-600 text-white py-6 flex items-center justify-center" style={{ minHeight: '150px' }}>
+  <div className="container mx-auto px-4 text-center">
+<h1 className="text-4xl sm:text-2xl font-bold mb-4">Welcome to Best West Pharmacy</h1>
+    <p className="text-xl sm:text-lg mb-4">Your trusted family pharmacy in Los Banos, California</p>
 
-        <section className="py-16">
+    {/* New Bullet Points */}
+    <ul className="list-disc list-inside mx-auto sm:text-center text-lg sm:text-md mb-6"> {/* Centered list */}
+      <li className="mb-2">We accept Medi-Cal!</li>
+      <li className="mb-2">Quick and efficient service!</li>
+      <li className="mb-2">We Deliver!</li>
+    </ul>
+
+    {/* Adjusted space between bullet points and reviews */}
+    <div className="flex items-center justify-center mt-8"> {/* Added margin-top for separation */}
+      <Star className="w-6 h-6 sm:w-5 sm:h-5 fill-current text-yellow-400" />
+      <span className="ml-2 text-lg sm:text-md font-semibold">4.4</span>
+      <span className="ml-2 text-sm">(7 Google reviews)</span>
+    </div>
+  </div>
+</section>
+
+
+        <section className="py-8">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-red-600 mb-12">Our Services</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <h2 className="text-3xl font-bold text-center text-red-600 mb-6">Our Services</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="bg-red-100 rounded-full p-6 inline-block mb-4">
                   <svg className="w-12 h-12 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -66,10 +76,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-gray-100 py-16">
+        <section className="bg-gray-100 py-8">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-red-600 mb-12">Contact Us</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <h2 className="text-3xl font-bold text-center text-red-600 mb-6">Contact Us</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="flex items-center justify-center">
                 <Phone className="w-6 h-6 text-red-600 mr-2" />
                 <span className="text-red-600">(209) 255 - 2305</span>
@@ -86,9 +96,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-16">
+        <section className="py-8">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-red-600 mb-8">Business Hours</h2>
+            <h2 className="text-3xl font-bold text-center text-red-600 mb-4">Business Hours</h2>
             <div className="max-w-md mx-auto">
               <table className="w-full">
                 <tbody>
