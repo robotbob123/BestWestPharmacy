@@ -82,11 +82,20 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="flex items-center justify-center">
                 <Phone className="w-6 h-6 text-red-600 mr-2" />
-                <span className="text-red-600">(209) 255 - 2305</span>
+                <a href="tel:+12092552305" className="text-red-600">
+                  (209) 255 - 2305
+                </a>
               </div>
               <div className="flex items-center justify-center">
                 <MapPin className="w-6 h-6 text-red-600 mr-2" />
-                <span className="text-red-600">400 W I St Suite D, Los Banos, CA 93635</span>
+                <a
+                  href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCDIwNTVqMGoxqAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KaWYtD0if5GAMdUBJzTA2d7w&daddr=400+W+I+St+Suite+D,+Los+Banos,+CA+93635"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-600"
+                >
+                  400 W I St Suite D, Los Banos, CA 93635
+                </a>
               </div>
               <div className="flex items-center justify-center">
                 <Clock className="w-6 h-6 text-red-600 mr-2" />
@@ -95,6 +104,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+
 
         <section className="py-8">
           <div className="container mx-auto px-4">
